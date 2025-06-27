@@ -1,16 +1,64 @@
-# stripe_payment_gateway_integration
+Aplicação de Venda de Objetos 3D em Flutter
+📱 Visão Geral
 
-A new Flutter project.
+App de e-commerce para vender modelos 3D digitais e impressões 3D sob demanda, desenvolvido em Flutter com foco em performance e organização.
+⚙️ Arquitetura & Padrões
 
-## Getting Started
+    MVVM para separação clara de lógica e interface
 
-This project is a starting point for a Flutter application.
+    Provider para gerenciamento de estado (simples e eficiente)
 
-A few resources to get you started if this is your first Flutter project:
+    SOLID para código limpo e manutenível
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    Stripe 💳 para pagamentos seguros (cartão, Pix, etc.)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✨ Principais Funcionalidades
+🛒 Sistema de Vendas
+
+    Carrinho persistente (salva localmente)
+
+    Checkout integrado ao Stripe (suporte a múltiplas formas de pagamento)
+
+    Histórico de pedidos offline/online
+
+📦 Catálogo de Objetos 3D
+
+    Visualizador 3D integrado (rotação, zoom, cores)
+
+    Filtros por preço, categoria e complexidade
+
+    Busca rápida e favoritos
+
+👤 Perfil do Usuário
+
+    Login com e-mail/Firebase Auth
+
+    Rastreamento de pedidos
+
+    Upload de modelos (para vendedores)
+
+🛠️ Ferramentas para Vendedores
+
+    Dashboard de vendas
+
+    Controle de licenças (uso pessoal/comercial)
+
+    Definição de preço por volume de impressão
+
+🚀 Diferenciais
+
+✔ Código bem estruturado (MVVM + SOLID)
+✔ Pagamentos seguros (Stripe com suporte a Pix)
+✔ Offline-first (dados salvos localmente)
+✔ Fácil manutenção (Provider + separação de camadas)
+🔧 Tecnologias-Chave
+
+    Flutter (UI multiplataforma)
+
+    Firebase (Auth, Firestore, Storage)
+
+    Stripe SDK (Pagamentos)
+
+    Provider (Gerenciamento de estado)
+
+Foco: Simplicidade, segurança e escalabilidade 🚀
